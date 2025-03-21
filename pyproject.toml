@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "haproxy"
+version = "0.1.0"
+description = "sample project for load balance"
+authors = ["majidhd001 <majidhd18@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.webapp.dependencies]
+django = "^5.1.7"
+fastapi = "^0.115.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
